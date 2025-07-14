@@ -1,0 +1,31 @@
+h1.fs-30{
+    color: red;
+    font-size: 30px;
+}
+h2.fs-20{
+    color: blue;
+    font-size: 20px;
+}
+p.fs-14{
+    color: black;
+    font-size: 14px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.menu{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: purple;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;  
+}
