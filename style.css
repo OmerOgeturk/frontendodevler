@@ -1,3 +1,8 @@
+/* Google sayfasındaki h2 başlığını ortalamak için */
+.h2 {
+    text-align: center;
+    margin-top: 20px;
+}
 h1.fs-30{
     color: red;
     font-size: 30px;
