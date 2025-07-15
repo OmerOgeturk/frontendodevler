@@ -1,0 +1,163 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
+}
+.footer-left, .footer-right {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-left {
+    justify-content: flex-start;
+}
+.footer-right {
+    justify-content: flex-end;
+}
+.footer-container a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.2s;
+}
+.footer-container a:hover {
+    color: #222;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
+}
+.footer-left, .footer-right {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-left {
+    justify-content: flex-start;
+}
+.footer-right {
+    justify-content: flex-end;
+}
+.footer-container a {
+    background-color: gray;
+    color: #555;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.2s;
+}
+.footer-container a:hover {
+    color: #222;
+}
+.ara-container {
+    
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0 auto;
+}
+.ara-btn {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 237, 237);
+    transition: box-shadow 0.2s;
+}
+.ara-btn:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.ortalayici {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img.ortalayici {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.ara-container {
+    color: white;
+    border-radius: 20px;
+    width: 440px;
+    margin: 20px auto 0 auto;
+}
+.ara-btn {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 237, 237);
+    transition: box-shadow 0.2s;
+}
+ .ara-btn:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.google-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ara-btn {
+    min-width: 150px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 237, 237);
+    transition: box-shadow 0.2s;
+    margin-right: 10px;
+}
+.ara-btn:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+ .button {
+     display: inline-block;
+     
+     background-color: #c1c5c1;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+ }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.top-buttons {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
