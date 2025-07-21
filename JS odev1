@@ -1,0 +1,25 @@
+let Ad = prompt("Adınızı Giriniz: ");
+    let AD = document.querySelector("#myName");
+    AD.innerHTML = Ad;
+
+    // Saati güncelleyen fonksiyon
+    function updateClock() {
+      const now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let seconds = now.getSeconds();
+
+      // Tek haneli sayılara sıfır ekle
+      hours = (hours < 10 ? "0" : "") + hours;
+      minutes = (minutes < 10 ? "0" : "") + minutes;
+      seconds = (seconds < 10 ? "0" : "") + seconds;
+
+      const timeString = `${hours}:${minutes}:${seconds}`;
+
+      let saat = document.querySelector("#myClock");
+      saat.innerHTML = timeString;
+    }
+
+    // İlk çağırma ve sonra her saniye güncelle
+    updateClock();
+    setInterval(updateClock, 1000);
